@@ -9,6 +9,7 @@ const books = [
     pages: 209,
     title: "Things Fall Apart",
     year: 1958,
+    liked:false
   },
   {
     id: "002",
@@ -20,6 +21,7 @@ const books = [
     pages: 784,
     title: "Fairy tales",
     year: 1836,
+    liked:false
   },
   {
     id: "003",
@@ -31,6 +33,7 @@ const books = [
     pages: 928,
     title: "The Divine Comedy",
     year: 1315,
+    liked:false
   },
   {
     id: "004",
@@ -41,7 +44,8 @@ const books = [
     link: "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
     pages: 160,
     title: "The Epic Of Gilgamesh",
-    year: -1700,
+    year: 1700,
+    liked:false
   },
   {
     id: "005",
@@ -52,7 +56,8 @@ const books = [
     link: "https://en.wikipedia.org/wiki/Book_of_Job\n",
     pages: 176,
     title: "The Book Of Job",
-    year: -600,
+    year: 600,
+    liked:false
   },
   {
     id: "006",
@@ -64,6 +69,7 @@ const books = [
     pages: 288,
     title: "One Thousand and One Nights",
     year: 1200,
+    liked:false
   },
   {
     id: "007",
@@ -75,6 +81,7 @@ const books = [
     pages: 384,
     title: "Nj\u00e1l's Saga",
     year: 1350,
+    liked:false
   },
   {
     id: "008",
@@ -86,9 +93,10 @@ const books = [
     pages: 226,
     title: "Pride and Prejudice",
     year: 1813,
+    liked:false
   },
   {
-    id: "009",
+    id: "9",
     author: "Honor\u00e9 de Balzac",
     country: "France",
     image: "9.png",
@@ -97,9 +105,10 @@ const books = [
     pages: 443,
     title: "Le P\u00e8re Goriot",
     year: 1835,
+    liked:false
   },
   {
-    id: "010",
+    id: "10",
     author: "Samuel Beckett",
     country: "Republic of Ireland",
     image: "10.png",
@@ -108,6 +117,7 @@ const books = [
     pages: 256,
     title: "Molloy, Malone Die",
     year: 1952,
+    liked:false
   },
 ];
 
