@@ -17,7 +17,7 @@ const [like,setLike]=useState(false)
     return (
         <>
  <div className="bg-blue-900 bg-opacity-5 w-full shadow-lg mt-2 rounded-lg p-2 mb-4 flex">
-            <img src={`./src/assets/${image}`} alt="Map2" className=" w-48  rounded-t-lg mr-4"/>
+            <img src={`${image}`} alt="Map2" className=" w-48  rounded-t-lg mr-4"/>
             <div className='flex relative  flex-col  justify-between'>
               <div>
                <h1 style={{fontSize:"35px"}}>{title}</h1>
